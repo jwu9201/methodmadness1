@@ -6,3 +6,4 @@ public class SQiuLib {
 		  String c = mmddyyyy.substring(4,8); //returns yyyy
 	return a + "-" + b + "-" + c;
 }
+}
