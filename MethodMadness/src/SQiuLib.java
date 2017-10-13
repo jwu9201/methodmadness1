@@ -20,7 +20,7 @@ public class SQiuLib{
 		public static void multiplicationTable(int base, int range) {
 			
 			for (int n = 0 ; n <= range ; n++)
-				System.out.print(base * n + " ");
+				System.out.println(range + " " + base * n);
 		}
 		
 }
