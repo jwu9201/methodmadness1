@@ -11,9 +11,8 @@ public class SQiuLib{
 		//String Method: cutOut	
 		
 		public static String cutOut (String mainStr , String subStr) {
-			  String a = subStr.substring(0,1);  // first occurrence of subStr cutout
-		
-			  return mainStr + a;
+			  String a = mainStr.replaceFirst(subStr, " "); //first occurence of subStr cutout
+			  return a;
 		}
 		
 		//Math Method: multiplicationTable
