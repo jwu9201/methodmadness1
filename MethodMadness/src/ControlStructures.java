@@ -1,3 +1,7 @@
+// Sophia Qiu + Jason Wu
+// Unit 1 Java Project: Method Madness
+// AP CSA Period 2 
+// 10/04/17 - 10/12/17 
 
 public class ControlStructures {
 
