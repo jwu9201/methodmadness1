@@ -19,8 +19,10 @@ public class SQiuLib{
 		
 		public static void multiplicationTable(int base, int range) {
 			
-			for (int n = 0 ; n <= range ; n++)
-				System.out.println(n + " " + base * n);
+			for (int n = 0 ; n <= range ; n++)   
+				System.out.println(n + " " + base * n);		/*prints the number used to multiply by the base number
+										*followed by the product of stated number and base number
+										*/
 		}
 		
 }
